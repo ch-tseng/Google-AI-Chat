@@ -1,0 +1,7 @@
+google-generativeai>=0.3.2
+google-cloud-speech
+google-cloud-texttospeech
+pyaudio # MicrophoneStream 仍然使用 pyaudio
+duckduckgo-search
+sounddevice # 用於 pro_gemini_voice_chat.py 中的 S2T，但我們目前的S2T也用pyaudio，可選
+playsound==1.2.2 # 指定版本，嘗試解決安裝與執行問題 
